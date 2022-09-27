@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-        
+
     color: white;
     background-color: rgb(60, 62, 68);
     text-align: left;
@@ -55,14 +55,26 @@ body{
 
   h4{
     margin: 0px;
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size: 18px;
     font-weight: 800;
 
   }
 
-  .dot {
+  .dot-dead {
     height: 7px;
     width:  7px;
     background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
+  .dot-alive {
+    height: 7px;
+    width:  7px;
+    background-color: greenyellow;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 2px;
